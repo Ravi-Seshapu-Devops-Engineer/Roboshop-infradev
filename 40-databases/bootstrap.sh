@@ -1,3 +1,3 @@
 #!/bin/bash
 
-dnf install ansible -y
+dnf --disablerepo=hashicorp.com install ansible -y
